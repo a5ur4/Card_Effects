@@ -28,73 +28,51 @@ main {
     padding: 10px;
 }
 
-.cards_aling:hover > .cards:nth-child(1){
-    transform:         
-        translateX(-13em)
-        translateY(6em)
-        rotate(-70deg) 
-        scale(65%);
+.cards_aling:hover>.cards:nth-child(1) {
+    transform:
+        translateX(-13em) translateY(6em) rotate(-70deg) scale(65%);
 }
 
-.cards_aling:hover > .cards:nth-child(2){
-    transform:         
-        translateX(-11em)
-        translateY(3em) 
-        rotate(-50deg) 
-        scale(75%);
+.cards_aling:hover>.cards:nth-child(2) {
+    transform:
+        translateX(-11em) translateY(3em) rotate(-50deg) scale(75%);
 }
 
-.cards_aling:hover > .cards:nth-child(3){
-    transform:         
-        translateX(-9em)
-        translateY(1em) 
-        rotate(-30deg) 
-        scale(85%);
+.cards_aling:hover>.cards:nth-child(3) {
+    transform:
+        translateX(-9em) translateY(1em) rotate(-30deg) scale(85%);
 }
 
-.cards_aling:hover > .cards:nth-child(4){
-    transform:         
-        translateX(-5em) 
-        rotate(-10deg) 
-        scale(95%);
+.cards_aling:hover>.cards:nth-child(4) {
+    transform:
+        translateX(-5em) rotate(-10deg) scale(95%);
 }
 
-.cards_aling:hover > .cards:nth-child(9){
-    transform:         
-        translateX(5em) 
-        rotate(10deg) 
-        scale(95%);
+.cards_aling:hover>.cards:nth-child(9) {
+    transform:
+        translateX(5em) rotate(10deg) scale(95%);
 }
 
-.cards_aling:hover > .cards:nth-child(8){
-    transform: 
-        translateX(9em)
-        translateY(1em)
-        rotate(30deg) 
-        scale(85%);
+.cards_aling:hover>.cards:nth-child(8) {
+    transform:
+        translateX(9em) translateY(1em) rotate(30deg) scale(85%);
 }
 
-.cards_aling:hover > .cards:nth-child(7){
-    transform:         
-        translateX(11em)
-        translateY(3em) 
-        rotate(50deg) 
-        scale(75%);
+.cards_aling:hover>.cards:nth-child(7) {
+    transform:
+        translateX(11em) translateY(3em) rotate(50deg) scale(75%);
 }
 
-.cards_aling:hover > .cards:nth-child(5){
-    transform:         
-        translateX(13em)
-        translateY(6em)
-        rotate(70deg) 
-        scale(65%);
+.cards_aling:hover>.cards:nth-child(5) {
+    transform:
+        translateX(13em) translateY(6em) rotate(70deg) scale(65%);
 }
 
-.cards_aling:hover > .cards:nth-child(6){
+.cards_aling:hover>.cards:nth-child(6) {
     padding: 10px;
 }
 
-.cards_aling:hover > .cards:nth-child(10){
+.cards_aling:hover>.cards:nth-child(10) {
     padding: 10px;
 }
 
@@ -105,78 +83,54 @@ main {
     height: 300px;
 }
 
-.cards:nth-child(1){
+.cards:nth-child(1) {
     background-color: aqua;
-    transform: 
-        translateX(-10em)
-        translateY(7em)
-        rotate(-50deg) 
-        scale(65%);
+    transform:
+        translateX(-10em) translateY(7em) rotate(-50deg) scale(65%);
 }
 
-.cards:nth-child(2){
+.cards:nth-child(2) {
     background-color: blue;
-    transform: 
-        translateX(-8em)
-        translateY(5em) 
-        rotate(-30deg) 
-        scale(75%);
+    transform:
+        translateX(-8em) translateY(5em) rotate(-30deg) scale(75%);
 }
 
-.cards:nth-child(3){
-    background-color:blueviolet;
-    transform: 
-    translateX(-5em)
-    translateY(3em)
-    rotate(-20deg) 
-    scale(85%);
-}
-
-.cards:nth-child(4){
-    background-color: mediumvioletred;
-    transform: 
-        translateX(-2.5em)
-        translateY(1em)
-        rotate(-10deg) 
-        scale(95%);
-    }
-    
-    .cards:nth-child(5){
-    background-color: aqua;
-    transform: 
-        translateX(10em)
-        translateY(7em)
-        rotate(50deg) 
-        scale(65%);
-}
-
-.cards:nth-child(7){
-    background-color:blue;
-    transform: 
-        translateX(8em)
-        translateY(5em)
-        rotate(30deg) 
-        scale(75%);  
-}
-
-.cards:nth-child(8){
+.cards:nth-child(3) {
     background-color: blueviolet;
-    transform: 
-        translateX(5em)
-        translateY(3em)
-        rotate(20deg) 
-        scale(85%);
+    transform:
+        translateX(-5em) translateY(3em) rotate(-20deg) scale(85%);
 }
 
-.cards:nth-child(9){
+.cards:nth-child(4) {
     background-color: mediumvioletred;
-    transform: 
-        translateX(2.5em)
-        translateY(0.8em)
-        rotate(10deg) 
-        scale(95%);
+    transform:
+        translateX(-2.5em) translateY(1em) rotate(-10deg) scale(95%);
 }
 
-.cards:nth-child(10){
+.cards:nth-child(5) {
+    background-color: aqua;
+    transform:
+        translateX(10em) translateY(7em) rotate(50deg) scale(65%);
+}
+
+.cards:nth-child(7) {
+    background-color: blue;
+    transform:
+        translateX(8em) translateY(5em) rotate(30deg) scale(75%);
+}
+
+.cards:nth-child(8) {
+    background-color: blueviolet;
+    transform:
+        translateX(5em) translateY(3em) rotate(20deg) scale(85%);
+}
+
+.cards:nth-child(9) {
+    background-color: mediumvioletred;
+    transform:
+        translateX(2.5em) translateY(0.8em) rotate(10deg) scale(95%);
+}
+
+.cards:nth-child(10) {
     background-color: white;
 }
