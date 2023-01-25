@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+}
+
+main {
+    height: 20em;
+}
+
+.cards_aling {
+    display: grid;
+    place-items: center;
+    margin-top: 10em;
+    transition: 0.5s ease-in-out;
+}
+
+.cards {
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 150px;
+    transition: 0.4s ease-in-out;
+}
+
+.cards:nth-child(1) {
+    width: 75px;
+    border: 2px solid white;
+    z-index: 1;
+    transform: translateX(-35px);
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cards:nth-child(2) {
+    width: 75px;
+    border: 2px solid white;
+    z-index: 1;
+    transform: translateX(35px);
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cards:nth-child(3):hover {
+    padding: 10px;
+    box-shadow: 0px 0px 60px 12px white;
+    cursor: pointer;
+}
+
+.cards:nth-child(4):hover {
+    padding: 10px;
+    box-shadow: 0px 0px 60px 12px white;
+    cursor: pointer;
+}
+
+.cards:nth-child(5):hover {
+    padding: 10px;
+    box-shadow: 0px 0px 60px 12px white;
+    cursor: pointer;
+}
+
+.cards:nth-child(6):hover {
+    padding: 10px;
+    box-shadow: 0px 0px 60px 12px white;
+    cursor: pointer;
+}
+
+.cards:nth-child(7):hover {
+    padding: 10px;
+    box-shadow: 0px 0px 60px 12px white;
+    cursor: pointer;
+}
+
+.cards:nth-child(8):hover {
+    box-shadow: 0px 0px 60px 12px white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cards:nth-child(9):hover {
+    padding: 10px;
+    box-shadow: 0px 0px 60px 12px white;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.cards_aling:hover>.cards:nth-child(1) {
+    transform:
+        translateX(-5.5em)
+}
+
+.cards_aling:hover>.cards:nth-child(2) {
+    transform:
+        translateX(5.5em)
+}
+
+.cards_aling:hover>.cards:nth-child(3) {
+    border-radius: 10px;
+    transform:
+        translateY(12em)
+}
+
+.cards_aling:hover>.cards:nth-child(4) {
+    border-radius: 10px;
+    transform:
+        translateY(-12em)
+}
+
+.cards_aling:hover>.cards:nth-child(5) {
+    border-radius: 10px;
+    transform:
+        translateY(-12em) translateX(-10em)
+}
+
+.cards_aling:hover>.cards:nth-child(6) {
+    border-radius: 10px;
+    transform:
+        translateY(-12em) translateX(10em)
+}
+
+.cards_aling:hover>.cards:nth-child(7) {
+    border-radius: 10px;
+    transform:
+        translateY(12em) translateX(10em)
+}
+
+.cards_aling:hover>.cards:nth-child(8) {
+    border-radius: 10px;
+    transform:
+        translateY(12em) translateX(-10em)
+}
