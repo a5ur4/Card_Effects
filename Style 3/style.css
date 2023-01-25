@@ -24,60 +24,48 @@ main {
     cursor: pointer;
 }
 
-.cards_aling:hover > .cards:nth-child(1){
-    transform:         
-        translateX(-5em) 
-        translateY(-5em)
-        scale(100%);
-        border-top-left-radius: 10px;
+.cards_aling:hover>.cards:nth-child(1) {
+    transform:
+        translateX(-5em) translateY(-5em) scale(100%);
+    border-top-left-radius: 10px;
 }
 
-.cards_aling:hover > .cards:nth-child(2){
-    transform:         
-        translateX(-5em) 
-        scale(100%);
+.cards_aling:hover>.cards:nth-child(2) {
+    transform:
+        translateX(-5em) scale(100%);
 }
 
-.cards_aling:hover > .cards:nth-child(3){
-    transform:         
-        translateX(-5em) 
-        translateY(5em)
-        scale(100%);
-        border-bottom-left-radius: 10px;
+.cards_aling:hover>.cards:nth-child(3) {
+    transform:
+        translateX(-5em) translateY(5em) scale(100%);
+    border-bottom-left-radius: 10px;
 }
 
-.cards_aling:hover > .cards:nth-child(4){
-    transform:          
-        translateY(5em)
-        scale(100%);
+.cards_aling:hover>.cards:nth-child(4) {
+    transform:
+        translateY(5em) scale(100%);
 }
 
-.cards_aling:hover > .cards:nth-child(5){
-    transform:         
-        translateX(5em) 
-        translateY(5em)
-        scale(100%);
-        border-bottom-right-radius: 10px;
+.cards_aling:hover>.cards:nth-child(5) {
+    transform:
+        translateX(5em) translateY(5em) scale(100%);
+    border-bottom-right-radius: 10px;
 }
 
-.cards_aling:hover > .cards:nth-child(6){
-    transform:         
-        translateX(5em) 
-        scale(100%);
+.cards_aling:hover>.cards:nth-child(6) {
+    transform:
+        translateX(5em) scale(100%);
 }
 
-.cards_aling:hover > .cards:nth-child(7){
-    transform:         
-        translateX(5em) 
-        translateY(-5em)
-        scale(100%);
-        border-top-right-radius: 10px;
+.cards_aling:hover>.cards:nth-child(7) {
+    transform:
+        translateX(5em) translateY(-5em) scale(100%);
+    border-top-right-radius: 10px;
 }
 
-.cards_aling:hover > .cards:nth-child(8){
-    transform:          
-        translateY(-5em)
-        scale(100%);
+.cards_aling:hover>.cards:nth-child(8) {
+    transform:
+        translateY(-5em) scale(100%);
 }
 
 .cards:hover {
